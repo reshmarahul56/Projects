@@ -14,7 +14,6 @@ urlpatterns = [
     path('result',views.result,name='result'),
     path('',views.calc_page,name='calc_page'),
     path('calc',views.calc,name='calc')
-
-
+    path('kozhikode',views.kozhikode,name='kozhikode')
 ]
 

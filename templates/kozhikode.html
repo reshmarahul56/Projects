@@ -1,0 +1,16 @@
+<html>
+    <head>
+            {% load static %}
+        <title>
+           Idukki
+        </title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/idukki.css' %}">
+    </head>
+    <body>
+        <h1>Welcome To Idukki</h1>
+        <center><img src="{% static 'images/idukki.jpg' %}" width="70%"></center><br><br><br>
+        <a href="{% url 'home' %}">
+            Back
+       </a>
+    </body>
+</html>

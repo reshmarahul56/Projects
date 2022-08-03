@@ -32,6 +32,9 @@ def add_num(request):
 def calc_page(request):
     return render(request,'calc_page.html') 
 
+def kozhikode(request):
+    return render(request,'kozhikode.html')
+    
 def calc(request):
     c=''
 
