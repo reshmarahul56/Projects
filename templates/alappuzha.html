@@ -1,0 +1,17 @@
+<html>
+    <head>
+            {% load static %}
+        <title>
+            Alappuzha
+        </title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/alappuzha.css' %}">
+    </head>
+    <body>
+        <h1>Welcome To Alappuzha</h1>
+       <center> <img src="{% static 'images/alappuzha.jpg' %}" width="70%"></center>
+        <br><br><br>
+        <a href="{% url 'home' %}">
+            Back
+       </a>
+    </body>
+</html>

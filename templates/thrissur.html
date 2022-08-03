@@ -1,0 +1,16 @@
+<html>
+    <head>
+            {% load static %}
+        <title>
+            Thrissur
+        </title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/thrissur.css' %}">
+    </head>
+    <body>
+        <h1>Welcome To Thrissur</h1>
+        <center><img src="{% static 'images/thrissur.jpg' %}" width="70%"></center><br><br><br>
+        <a href="{% url 'home' %}">
+            Back
+       </a>
+    </body>
+</html>

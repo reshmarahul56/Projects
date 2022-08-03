@@ -1,0 +1,17 @@
+
+<html>
+    <head>
+            {% load static %}
+        <title>
+            Wayanad
+        </title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/wayanad.css' %}">
+    </head>
+    <body>
+        <h1>Welcome To Wayanad</h1>
+        <center><img src="{% static 'images/wayanad.jpg' %}" width="70%"></center><br><br><br>
+        <a href="{% url 'home' %}">
+            Back
+       </a>
+    </body>
+</html>
